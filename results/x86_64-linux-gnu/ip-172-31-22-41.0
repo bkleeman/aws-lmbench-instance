@@ -1,0 +1,140 @@
+[lmbench3.0 results for Linux ip-172-31-22-41 4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux]
+[LMBENCH_VER: 3.0-a9]
+[BENCHMARK_HARDWARE: YES]
+[BENCHMARK_OS: YES]
+[ALL: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m 128m 256m 512m]
+[DISKS: ]
+[DISK_DESC: ]
+[ENOUGH: 100000]
+[FAST: ]
+[FASTMEM: NO]
+[FILE: /home/ubuntu/lmbench-3.0-a9/results/XXX]
+[FSDIR: /home/ubuntu/lmbench-3.0-a9/results]
+[HALF: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m 128m 256m]
+[INFO: INFO.ip-172-31-22-41]
+[LINE_SIZE: ]
+[LOOP_O: 0.00000000]
+[MB: 693]
+[MHZ: 2735 MHz, 0.3656 nanosec clock]
+[MOTHERBOARD: ]
+[NETWORKS: ]
+[PROCESSORS: 1]
+[REMOTE: ]
+[SLOWFS: NO]
+[OS: x86_64-linux-gnu]
+[SYNC_MAX: 1]
+[LMBENCH_SCHED: DEFAULT]
+[TIMING_O: 0]
+[LMBENCH VERSION: 3.0-a9]
+[USER: ubuntu]
+[HOSTNAME: ip-172-31-22-41]
+[NODENAME: ip-172-31-22-41]
+[SYSNAME: Linux]
+[PROCESSOR: x86_64]
+[MACHINE: x86_64]
+[RELEASE: 4.4.0-1052-aws]
+[VERSION: #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018]
+[Thu May 10 20:54:04 UTC 2018]
+[ 20:54:04 up 2:48, 1 user, load average: 0.00, 0.02, 0.00]
+[net: Kernel Interface table]
+[net: Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg]
+[net: eth0       9001 0    164452      0      0 0         40259      0      0      0 BMRU]
+[if: eth0      Link encap:Ethernet  HWaddr 06:2f:14:f9:3b:98  ]
+[if: inet addr:172.31.22.41  Bcast:172.31.31.255  Mask:255.255.240.0]
+[if: inet6 addr: fe80::42f:14ff:fef9:3b98/64 Scope:Link]
+[if: UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1]
+[if: RX packets:164452 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:40259 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:1000 ]
+[if: RX bytes:236300716 (236.3 MB)  TX bytes:3678399 (3.6 MB)]
+[if: ]
+[net: lo        65536 0       192      0      0 0           192      0      0      0 LRU]
+[if: lo        Link encap:Local Loopback  ]
+[if: inet addr:127.0.0.1  Mask:255.0.0.0]
+[if: inet6 addr: ::1/128 Scope:Host]
+[if: UP LOOPBACK RUNNING  MTU:65536  Metric:1]
+[if: RX packets:192 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:192 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:1 ]
+[if: RX bytes:14456 (14.4 KB)  TX bytes:14456 (14.4 KB)]
+[if: ]
+[mount: sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)]
+[mount: proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)]
+[mount: udev on /dev type devtmpfs (rw,nosuid,relatime,size=499284k,nr_inodes=124821,mode=755)]
+[mount: devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)]
+[mount: tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=101456k,mode=755)]
+[mount: /dev/xvda1 on / type ext4 (rw,relatime,discard,data=ordered)]
+[mount: securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)]
+[mount: tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)]
+[mount: tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)]
+[mount: tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)]
+[mount: cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/lib/systemd/systemd-cgroups-agent,name=systemd)]
+[mount: pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)]
+[mount: cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)]
+[mount: cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)]
+[mount: cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)]
+[mount: cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)]
+[mount: cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)]
+[mount: cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)]
+[mount: cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)]
+[mount: cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)]
+[mount: cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)]
+[mount: cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)]
+[mount: mqueue on /dev/mqueue type mqueue (rw,relatime)]
+[mount: hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime)]
+[mount: debugfs on /sys/kernel/debug type debugfs (rw,relatime)]
+[mount: systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=36,pgrp=1,timeout=0,minproto=5,maxproto=5,direct)]
+[mount: fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)]
+[mount: lxcfs on /var/lib/lxcfs type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)]
+[mount: tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=101456k,mode=700,uid=1000,gid=1000)]
+Simple syscall: 0.2509 microseconds
+Simple read: 0.3727 microseconds
+Simple write: 0.3398 microseconds
+Simple stat: 0.7300 microseconds
+Simple fstat: 0.3489 microseconds
+Simple open/close: 1.5579 microseconds
+Select on 10 fd's: 0.4181 microseconds
+Select on 100 fd's: 2.0668 microseconds
+Select on 250 fd's: 4.5121 microseconds
+Select on 500 fd's: 9.3322 microseconds
+Select on 10 tcp fd's: 0.5542 microseconds
+Select on 100 tcp fd's: 7.0641 microseconds
+Select on 250 tcp fd's: 18.0247 microseconds
+Select on 500 tcp fd's: 36.8556 microseconds
+Signal handler installation: 0.2933 microseconds
+Signal handler overhead: 0.8971 microseconds
+Protection fault: 0.5994 microseconds
+Pipe latency: 6.0429 microseconds
+AF_UNIX sock stream latency: 7.3430 microseconds
+Process fork+exit: 95.9099 microseconds
+Process fork+execve: 294.0135 microseconds
+Process fork+/bin/sh -c: 704.5375 microseconds
+integer bit: 0.38 nanoseconds
+integer add: 0.19 nanoseconds
+integer mul: -0.02 nanoseconds
+integer div: 8.90 nanoseconds
+integer mod: 9.57 nanoseconds
+int64 bit: 0.38 nanoseconds
+uint64 add: 0.19 nanoseconds
+int64 mul: -0.02 nanoseconds
+int64 div: 15.88 nanoseconds
+int64 mod: 16.00 nanoseconds
+float add: 1.13 nanoseconds
+float mul: 1.88 nanoseconds
+float div: 4.98 nanoseconds
+double add: 1.13 nanoseconds
+double mul: 1.89 nanoseconds
+double div: 7.61 nanoseconds
+float bogomflops: 2.67 nanoseconds
+double bogomflops: 5.22 nanoseconds
+integer bit parallelism: 3.70
+integer add parallelism: 1.91
+integer mul parallelism: 15.99
+integer div parallelism: 2.97
+integer mod parallelism: 3.32
+int64 bit parallelism: 3.06
+int64 add parallelism: 1.89
+int64 mul parallelism: 15.94
+int64 div parallelism: 1.65
+int64 mod parallelism: 1.53
+float add parallelism: 3.00
